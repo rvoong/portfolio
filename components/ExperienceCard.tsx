@@ -11,14 +11,14 @@ function ExperienceCard({ experience }: Props) {
   return (
     <article className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 w-[500px] md:w-[600px] xl:w-[900px] snap-center bg-[#292929] p-10 
     hover:opacity-100 opacity-40 cursor-pointer transition-opacity duration overflow-hidden">
-        <motion.img
+        {/* <motion.img
           initial={{ y:-100, opacity: 0}}
           whileInView={{ opacity:1, y:0 }}
           transition={{ duration: 1.2}}
           viewport={{ once:true }}
           className="w-32 h-32 xl:w-[200px] xl:[200px] object-cover object-center"
           src={urlFor(experience?.companyImage).url()}
-        />
+        /> */}
 
         {/* padding so it isn't squished in medium sized screens */}
         <div className="px-0 md:px-10">

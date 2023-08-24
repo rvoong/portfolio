@@ -28,7 +28,7 @@ type Props = {
 // Destructuring: Original - const Home: NextPage = () => {
 const Home = ({pageInfo, experiences, projects, skills, socials}: Props) => {
   return (
-    <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0">
+    <div className="bg-[rgb(36,36,36)] text-white snap-y snap-mandatory overflow-y-scroll overflow-x-hidden z-0">
       <Head>
         <title> {pageInfo.name} Portfolio</title>
       </Head>
